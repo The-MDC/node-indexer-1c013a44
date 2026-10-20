@@ -1,13 +1,13 @@
 module github.com/duneanalytics/blockchain-ingester
 
-go 1.22.2
+go 1.24
 
 require (
 	github.com/emirpasic/gods v1.18.1
 	github.com/go-errors/errors v1.5.1
 	github.com/hashicorp/go-retryablehttp v0.7.7
 	github.com/jessevdk/go-flags v1.5.0
-	github.com/klauspost/compress v1.17.8
+	github.com/klauspost/compress v1.18.7
 	github.com/panjf2000/ants/v2 v2.10.0
 	github.com/prometheus/client_golang v1.19.1
 	github.com/stretchr/testify v1.9.0
